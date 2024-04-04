@@ -3,6 +3,6 @@
 Group 10 | 21482
 # Team Members
 [Aniketh Venkateswaran](https://github.com/anivenk033): @anivenk033
-Fauz Syed
+Fauz Syed: @Fauz-Syed
 Sean Payne
 Phillip Doan
