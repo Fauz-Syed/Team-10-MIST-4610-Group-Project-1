@@ -22,12 +22,12 @@ The Tournaments entity describes the tournaments played by the teams and clubs. 
 The Training Sessions entity describes the Training Sessions using the unique identifier, sessionID, date, location, and session type. One Training Session can have many Drills, hence the identifying one-to-many relationship between Training Sessions (Parent Entity) and Drills (Child Entity). Training Sessions use many pieces of equipment, hence the many-to-many relationship between the Training Sessions entity and the Equipment entity. The associative entity, Drills, helps facilitate the association between Training Sessions and Equipment through Drills. Each row in the Drills table represents a specific drill conducted during a training session and it specifies the equipment used in that drill. This allows for the effective organization of drills within the context of the training sessions.\
 ![image](https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/22a50923-fcc3-4e2f-9160-9561be32830e)
 # Data Dictionary
-<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/56d54638-b466-4a34-97e4-2594b120cec5">
-<img width="447" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/8da69e05-0bbf-4410-b418-ef5a20cb4b13">
-<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1911f82b-5bde-49bc-8153-002441960039">
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/81e56358-f8f2-42e2-95a0-6b018977c151">
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/faf8486a-7af9-439d-82f2-2a9e75326e5b">
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/e4bd0daa-88f4-4d20-aaa3-cc8b882dee09">
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">
+<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/56d54638-b466-4a34-97e4-2594b120cec5">\
+<img width="447" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/8da69e05-0bbf-4410-b418-ef5a20cb4b13">\
+<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1911f82b-5bde-49bc-8153-002441960039">\
+<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/81e56358-f8f2-42e2-95a0-6b018977c151">\
+<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/faf8486a-7af9-439d-82f2-2a9e75326e5b">\
+<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/e4bd0daa-88f4-4d20-aaa3-cc8b882dee09">\
+<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">\
 
 
