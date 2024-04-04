@@ -2,7 +2,7 @@
 # Team Name
 Group 10 | 21482
 # Team Members
-[Aniketh Venkateswaran](https://github.com/anivenk033)
+[Aniketh Venkateswaran](https://github.com/anivenk033): @anivenk033
 Fauz Syed
 Sean Payne
 Phillip Doan
