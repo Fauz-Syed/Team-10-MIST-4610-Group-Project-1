@@ -28,6 +28,29 @@ The Training Sessions entity describes the Training Sessions using the unique id
 <img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/81e56358-f8f2-42e2-95a0-6b018977c151">\
 <img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/faf8486a-7af9-439d-82f2-2a9e75326e5b">\
 <img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/e4bd0daa-88f4-4d20-aaa3-cc8b882dee09">\
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">\
+<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">
+# Queries
+<img width="448" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/b74fcacc-6197-498f-89c9-7b62020d447c">\
+Query 1: List the name of tournaments that take place during Winter and the prize money is more than $5000\
+Justification: Hosting tournaments in the winter with prize money exceeding $5000 is important for several reasons. Firstly, it attracts top talent and increases competitiveness among participating teams, leading to higher-quality matches. Additionally, it promotes the sport during a season when there may be fewer competitive events, stimulating interest among fans and potential new participants. Economically, such tournaments can benefit the host city or region by boosting tourism and local businesses. Moreover, they enhance the organization's reputation within the soccer community and attract sponsors seeking exposure to a large audience.\
+<img width="353" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6abe714e-cfa6-4148-a364-c6cba4e762f0">\
+Query 2: Select player gender, count of players, and player position from the Players table, and group the results by both player gender and position\
+
+<img width="215" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/a1eacf0e-c75b-4eb2-a67d-b73e0565d0c9">\
+Query 3: Which coaches make over 200k, and how many players do they oversee\
+<img width="347" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/7d3c9725-bb9b-4541-b44a-89f5113a97f5">\
+Query 4: Which players in each club are older than the average age of players within their respective clubs\
+<img width="359" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/190d26f9-368d-47cd-b05a-c0e223974d5d">\
+Query 5: List the name of the player and the total amount of payments they have received\
+<img width="258" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1e4be05c-30bb-4c4e-9cf1-ff6dd75ad29f">\
+Query 6: What is the average age of the players in each club\
+<img width="352" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/d9d37fc5-a10b-49b8-86b3-7813e217d459">\
+Query 7: How many players are there in each age group (U12, U14, U16, U18) for each club\
+<img width="346" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/0156b93e-10c5-40f9-8437-14e3bd53fb1f">\
+Query 8: List the Intern Coaches for each Head Coach, but include the information only if the Head Coach has an assigned intern\
+<img width="573" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/fd823658-d171-4280-9818-e77da9de9c1f">\
+
+
+
 
 
