@@ -62,8 +62,8 @@ The Training Sessions entity describes the Training Sessions using the unique id
 **Query 10:** List how many wins and losses are in each tournament\
 <img width="344" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/cc9065cd-ad77-4fc7-9af4-5fb72167cd34">\
 **Justification:** Knowing how many wins and losses are in each tournament is essential for performance evaluation, tournament standings, strategic planning, player development, motivation and morale, fan engagement, scouting and recruitment, and organizational evaluation. It enables teams and organizations to make informed decisions and adjustments to improve their performance and achieve success in future tournaments.
-
-
+# ChatGPT Logs
+[Logs](https://docs.google.com/document/d/1gJqfsigWOgoy_etL4I_ufc97062W1sgi1A7hPoL_S90/edit?usp=share_link)
 
 
 
