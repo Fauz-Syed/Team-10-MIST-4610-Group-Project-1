@@ -64,6 +64,9 @@ The Training Sessions entity describes the Training Sessions using the unique id
 # ChatGPT Logs
 [Logs](https://docs.google.com/document/d/1gJqfsigWOgoy_etL4I_ufc97062W1sgi1A7hPoL_S90/edit?usp=share_link)
 
+# Database Information
+Name of database: Group_10_Project_1
+Schema: al_Group_21482_G10
 
 
 
