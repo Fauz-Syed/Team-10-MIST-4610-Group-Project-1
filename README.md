@@ -22,45 +22,45 @@ The Tournaments entity describes the tournaments played by the teams and clubs. 
 The Training Sessions entity describes the Training Sessions using the unique identifier, sessionID, date, location, and session type. One Training Session can have many Drills, hence the identifying one-to-many relationship between Training Sessions (Parent Entity) and Drills (Child Entity). Training Sessions use many pieces of equipment, hence the many-to-many relationship between the Training Sessions entity and the Equipment entity. The associative entity, Drills, helps facilitate the association between Training Sessions and Equipment through Drills. Each row in the Drills table represents a specific drill conducted during a training session and it specifies the equipment used in that drill. This allows for the effective organization of drills within the context of the training sessions.\
 ![image](https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/22a50923-fcc3-4e2f-9160-9561be32830e)
 # Data Dictionary
-<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/56d54638-b466-4a34-97e4-2594b120cec5">\
-<img width="447" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/8da69e05-0bbf-4410-b418-ef5a20cb4b13">\
-<img width="449" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1911f82b-5bde-49bc-8153-002441960039">\
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/81e56358-f8f2-42e2-95a0-6b018977c151">\
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/faf8486a-7af9-439d-82f2-2a9e75326e5b">\
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/e4bd0daa-88f4-4d20-aaa3-cc8b882dee09">\
-<img width="446" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/56d54638-b466-4a34-97e4-2594b120cec5">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/8da69e05-0bbf-4410-b418-ef5a20cb4b13">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1911f82b-5bde-49bc-8153-002441960039">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/81e56358-f8f2-42e2-95a0-6b018977c151">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/faf8486a-7af9-439d-82f2-2a9e75326e5b">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/e4bd0daa-88f4-4d20-aaa3-cc8b882dee09">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6e86dea0-bfc5-422c-82d4-534e725540ed">
 # Queries
-<img width="307" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/552d7b0a-0892-40ea-9e3e-e9fb6fc1fde6">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/552d7b0a-0892-40ea-9e3e-e9fb6fc1fde6">\
 **Query 1:** List the name of tournaments that take place during Winter and the prize money is more than $5000\
-<img width="353" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6abe714e-cfa6-4148-a364-c6cba4e762f0">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/6abe714e-cfa6-4148-a364-c6cba4e762f0">\
 **Justification:** Hosting tournaments in the winter with prize money exceeding $5000 is important for several reasons. Firstly, it attracts top talent and increases competitiveness among participating teams, leading to higher-quality matches. Additionally, it promotes the sport during a season when there may be fewer competitive events, stimulating interest among fans and potential new participants. Economically, such tournaments can benefit the host city or region by boosting tourism and local businesses. Moreover, they enhance the organization's reputation within the soccer community and attract sponsors seeking exposure to a large audience.\
 **Query 2:** Select player gender, count of players, and player position from the Players table, and group the results by both player gender and position\
-<img width="215" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/a1eacf0e-c75b-4eb2-a67d-b73e0565d0c9">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/a1eacf0e-c75b-4eb2-a67d-b73e0565d0c9">\
 **Justification:** Knowing the number of people and their genders who play each position in a soccer organization is crucial for strategic planning, player development, gender equity, team balance, recruitment, competition management, and player satisfaction. It allows the organization to optimize team performance, promote inclusivity, and create positive experiences for all players involved.\
 **Query 3:** Which coaches make over 200k, and how many players do they oversee\
-<img width="347" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/7d3c9725-bb9b-4541-b44a-89f5113a97f5">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/7d3c9725-bb9b-4541-b44a-89f5113a97f5">\
 **Justification:** Knowing which coaches make over $200,000 and the amount of players they oversee is essential for salary management, performance evaluation, resource allocation, player development, team dynamics, recruitment and retention, and promoting equity and fairness within the organization. It enables administrators to make informed decisions and ensure the effective management of coaching staff and player resources.\
 **Query 4:** Which players in each club are older than the average age of players within their respective clubs\
-<img width="359" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/190d26f9-368d-47cd-b05a-c0e223974d5d">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/190d26f9-368d-47cd-b05a-c0e223974d5d">\
 **Justification:** Older players often bring leadership qualities and experience to the team. Identifying these players allows coaches to leverage their leadership skills to mentor younger players, provide guidance during matches, and contribute to team cohesion. They are often role models for the younger players in the clubs.\
 **Query 5:** What is the average age of the players in each club\
-<img width="248" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/9f1e0c5b-7262-42ca-94ec-4b4d2382938f">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/9f1e0c5b-7262-42ca-94ec-4b4d2382938f">\
 **Justification:** Knowing the average age of each player in each club within a soccer organization is crucial for team composition, player development, talent identification, succession planning, team cohesion, strategic decisions, and player welfare. It allows clubs to effectively manage their rosters and create environments conducive to the growth and success of their players.\
 
 **Query 6:** Find the players that do not have a team\
-<img width="344" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1ac3f138-e329-4251-a265-e117b2b185ee">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/1ac3f138-e329-4251-a265-e117b2b185ee">\
 **Justification:** It aids in player recruitment efforts, enabling the organization to target individuals for team membership and expand its player base. Additionally, it facilitates the development of skill enhancement programs tailored to unassigned players, fostering talent growth and preparing them for team participation. Identifying unassigned players also helps in forming new teams or adjusting existing ones, ensuring balanced and competitive rosters. By maximizing available resources and promoting inclusivity, soccer organizations can engage with the community more effectively and foster long-term growth and sustainability.\
 **Query 7:** How many players are there in each age group (U12, U14, U16, U18) for each club\
-<img width="346" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/0156b93e-10c5-40f9-8437-14e3bd53fb1f">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/0156b93e-10c5-40f9-8437-14e3bd53fb1f">\
 **Justification:** Knowing the number of people in each group within a soccer organization is crucial for efficient resource allocation, effective team management, and tailored training and development programs. It helps to ensure adequate supervision, maintain safe player-to-coach ratios, and plan budgets accordingly. Additionally, understanding group dynamics contributes to player satisfaction and retention, as players are more likely to stay engaged when they receive personalized attention and support. Overall, having this information enables the organization to optimize operations, enhance player experiences, and achieve its goals more effectively.\
 **Query 8:** List the name of the player and the total amount of payments they have received\
-<img width="342" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/22d3c242-5259-466e-9480-18f36d62546a">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/22d3c242-5259-466e-9480-18f36d62546a">\
 **Justification:** Knowing the players and the amount of payments they have received is essential for financial transparency, contract management, salary management, tax compliance, player welfare, performance incentives, contract negotiations, and player retention efforts within a soccer organization. It enables clubs to effectively manage their financial resources and ensure that players are compensated fairly and accurately.
 **Query 9:** List the Intern Coaches for each Head Coach, but include the information only if the Head Coach has an assigned intern\
-<img width="573" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/fd823658-d171-4280-9818-e77da9de9c1f">\
+<img width="600" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/fd823658-d171-4280-9818-e77da9de9c1f">\
 **Justification:** Identifying coaches who mentor interns allows the organization to facilitate mentorship and professional development opportunities. Intern coaches benefit from hands-on experience and guidance from experienced coaches, which helps them develop their coaching skills and knowledge.\
 **Query 10:** List how many wins and losses are in each tournament\
-<img width="344" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/cc9065cd-ad77-4fc7-9af4-5fb72167cd34">\
+<img width="500" alt="image" src="https://github.com/Fauz-Syed/Team-10-MIST-4610-Group-Project-1/assets/166072354/cc9065cd-ad77-4fc7-9af4-5fb72167cd34">\
 **Justification:** Knowing how many wins and losses are in each tournament is essential for performance evaluation, tournament standings, strategic planning, player development, motivation and morale, fan engagement, scouting and recruitment, and organizational evaluation. It enables teams and organizations to make informed decisions and adjustments to improve their performance and achieve success in future tournaments.
 # ChatGPT Logs
 [Logs](https://docs.google.com/document/d/1gJqfsigWOgoy_etL4I_ufc97062W1sgi1A7hPoL_S90/edit?usp=share_link)
